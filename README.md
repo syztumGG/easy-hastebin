@@ -6,5 +6,5 @@ Simple NPM module for generating hasteb.in links.
 const haste = require('easy-hastebin');
 
 const myCrazyProgram = console.log('Hello World');
-haste(myCrazyProgram, "js"); // => https://hasteb.in/randomURL.js
+haste(myCrazyProgram, 'js').then(res => console.log(res)); // => https://hasteb.in/randomURL.js
 ```
