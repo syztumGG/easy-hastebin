@@ -1,6 +1,6 @@
 {
   "name": "easy-hastebin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple NPM module for generating hasteb.in links",
   "main": "hastebin.js",
   "keywords": [
