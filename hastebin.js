@@ -4,7 +4,7 @@ module.exports = (input, ext) => {
   const ops = {
     method: 'POST',
     uri: 'https://hasteb.in/documents',
-    body: { some: input },
+    body: input,
     json: true,
   };
   return new Promise((res, rej) => {
