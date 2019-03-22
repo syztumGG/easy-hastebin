@@ -4,7 +4,7 @@
   "description": "Simple NPM module for generating hasteb.in links",
   "main": "hastebin.js",
   "author": "syztumGG",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "node-fetch": "^2.3.0"
   }
