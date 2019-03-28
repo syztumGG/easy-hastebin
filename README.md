@@ -12,8 +12,15 @@ I prefer [hasteb.in](https://hasteb.in) to [hastebin.com](https://hastebin.com) 
 const haste = require('easy-hastebin');
 
 const myCrazyProgram = console.log('Hello World');
-haste(myCrazyProgram, 'js').then(res => console.log(res));
-// => https://hasteb.in/randomURL.js
+
+// js file extension (default)
+haste(myCrazyProgram).then(res => console.log(res)); // => https://hasteb.in/randomURL.js
+
+// custom file extension
+haste(myCrazyProgram, 'cpp').then(res => console.log(res)); // => https://hasteb.in/randomURL.cpp
+
+// plaintext
+haste(myCrazyProgram, null).then(res => console.log(res)); // => https://hasteb.in/randomURL
 ```
 
 ### License
