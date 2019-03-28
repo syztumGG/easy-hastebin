@@ -13,14 +13,15 @@ const haste = require('easy-hastebin');
 
 const myCrazyProgram = console.log('Hello World');
 
+
 // js file extension (default)
-haste(myCrazyProgram).then(res => console.log(res)); // => https://hasteb.in/randomURL.js
+haste(myCrazyProgram).then(res => console.log(res));
 
 // custom file extension
-haste(myCrazyProgram, 'cpp').then(res => console.log(res)); // => https://hasteb.in/randomURL.cpp
+haste(myCrazyProgram, 'cpp').then(res => console.log(res));
 
-// plaintext
-haste(myCrazyProgram, null).then(res => console.log(res)); // => https://hasteb.in/randomURL
+// plaintext ( no file extension)
+haste(myCrazyProgram, null).then(res => console.log(res));
 ```
 
 ### License
