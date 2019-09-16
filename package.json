@@ -1,9 +1,9 @@
 {
   "name": "easy-hastebin",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Simple NPM module for generating hasteb.in links",
   "main": "hastebin.js",
-  "author": "syztumGG",
+  "author": "syztum",
   "license": "MIT",
   "dependencies": {
     "node-fetch": "^2.3.0"

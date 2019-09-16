@@ -1,7 +1,6 @@
 const fetch = require('node-fetch');
 
-module.exports = async (input, ext) => {
-  const res = await fetch('https://hasteb.in/documents', { method: 'POST', body: input }).then(res => res.json());
-  return `https://hasteb.in/${res.key}${ext === null ? '' : `.${ext || 'js'}`}`;
+module.exports = async (body, ext) => {
+  const { key } = await fetch('https://hasteb.in/documents', { method: 'POST', body }).then(res => res.json());
+  return `https://hasteb.in/${key}${ext === null ? '' : `.${ext || 'js'}`}`;
 };
-// i prefer hasteb.in to hastebin which is honestly the only reason this exists

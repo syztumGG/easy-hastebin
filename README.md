@@ -24,4 +24,4 @@ haste(myCrazyProgram, null).then(console.log);
 ```
 
 ### License
-• [MIT](https://github.com/syztumGG/easy-hastebin/blob/master/LICENSE.md) © 2019 [Sam Gilburg](https://github.com/syztumGG)
+• [MIT](https://github.com/syztum/easy-hastebin/blob/master/LICENSE.md) © 2019 [Sam Gilburg](https://github.com/syztum)
